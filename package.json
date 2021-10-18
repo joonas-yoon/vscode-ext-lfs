@@ -1,7 +1,9 @@
 {
-  "name": "LFS",
+  "name": "vscode-lfs",
   "displayName": "Large File Sort",
+  "description": "Sort lines of large text file",
   "version": "1.0.2",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.61.0"
   },
@@ -22,8 +24,20 @@
       "properties": {}
     }
   },
+  "bugs": {
+    "url": "https://github.com/joonas-yoon/vscode-ext-lfs/issues",
+    "email": "joonas.yoon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joonas-yoon/vscode-ext-lfs.git"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#00b4fc",
+    "theme": "dark"
+  },
   "publisher": "JoonaYoon",
-  "repository": "https://github.com/joonas-yoon/vscode-ext-lfs",
   "activationEvents": [
     "onCommand:LFS.sortFile"
   ]
