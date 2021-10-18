@@ -2,7 +2,7 @@
   "name": "vscode-lfs",
   "displayName": "Large File Sort",
   "description": "Sort lines of large text file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "engines": {
     "vscode": "^1.61.0"
