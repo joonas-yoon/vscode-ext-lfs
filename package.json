@@ -1,0 +1,28 @@
+{
+  "name": "LFS",
+  "displayName": "Large File Sort",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./build/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "LFS.sortFile",
+        "title": "Sort File",
+        "category": "LFS"
+      }
+    ],
+    "configuration": {
+      "title": "Large File Sort",
+      "properties": {}
+    }
+  },
+  "activationEvents": [
+    "onCommand:LFS.sortFile"
+  ]
+}
